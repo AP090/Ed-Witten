@@ -231,8 +231,6 @@ def get_pronouns(user):
 
 
 #-----------------------------------------------------------------------------
-# bot token, DO NOT GIVE THIS TO ANYONE
-# NzUyMDAwNDM1ODIwMTY3MjA4.X1RQ-w.7M3uQcb0HLk-nP4GToVklxYqqj8
 intents = discord.Intents.all()
 #intents.reactions = True
 #intents.members = True
@@ -1747,4 +1745,4 @@ async def archiveColloquia():
 exec(open("botKey.py").read())
 
 if not DEBUG_MODE:
-    client.run(theKey) #"ODcyODg0NDYwMzU2NTA1Njkx.YQwXAA._KGkW7umy_mhAJBNrYrTy2jj6FQ"  )
+    client.run(theKey) 
